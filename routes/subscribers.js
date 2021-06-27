@@ -7,14 +7,14 @@ module.exports = router;
 //get all
 
 router.get('/', (req, res) => { 
-res.send('Hello World');
+    res.send('Subs Home');
 
 })
 
 //get one
 
 router.get('/:id', (req, res) => { 
-
+    res.send(req.params.id);
 
 })
 
